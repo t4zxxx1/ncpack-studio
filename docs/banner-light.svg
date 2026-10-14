@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-label="NCPack Studio: videos half the size, quality measured not promised. 82.2 MB to 33.3 MB at VMAF 96.65.">
+  <defs>
+    <radialGradient id="g1" cx="0.12" cy="0" r="0.75"><stop offset="0" stop-color="#bee63c" stop-opacity=".55"/><stop offset="1" stop-color="#aad73c" stop-opacity="0"/></radialGradient>
+    <radialGradient id="g2" cx="1" cy="1" r="0.7"><stop offset="0" stop-color="#50aa82" stop-opacity=".32"/><stop offset="1" stop-color="#28785a" stop-opacity="0"/></radialGradient>
+    <linearGradient id="bar" x1="0" x2="1"><stop offset="0" stop-color="#e6fb74"/><stop offset=".5" stop-color="#d7f24c"/><stop offset="1" stop-color="#b9e33a"/></linearGradient>
+    <linearGradient id="shine" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".55"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#141810" stroke-opacity=".05"/></pattern>
+    <clipPath id="card"><rect width="1280" height="420" rx="28"/></clipPath>
+    <clipPath id="barclip"><rect x="700" y="236" width="0" height="44" rx="22">
+      <animate attributeName="width" values="0;480;480;192;192;0" keyTimes="0;.18;.42;.62;.92;1" dur="7s" repeatCount="indefinite" calcMode="spline" keySplines=".2 .8 .2 1;0 0 1 1;.2 .8 .2 1;0 0 1 1;.4 0 .2 1"/>
+    </rect></clipPath>
+  </defs>
+  <g clip-path="url(#card)">
+    <rect width="1280" height="420" fill="#eceee6"/>
+    <rect width="1280" height="420" fill="url(#grid)"/>
+    <rect width="1280" height="420" fill="url(#g1)"/>
+    <rect width="1280" height="420" fill="url(#g2)"/>
+
+    <!-- logo -->
+    <g transform="translate(80 76)">
+      <circle cx="28" cy="28" r="28" fill="#d7f24c"/>
+      <g fill="none" stroke="#151a02" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round" transform="translate(10 10) scale(1.5)">
+        <g><path d="M4 9h5V4M9 9 3.5 3.5"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;1.6 1.6;0 0" keyTimes="0;.8;.88;1" dur="6s" repeatCount="indefinite"/></g>
+        <g><path d="M20 15h-5v5M15 15l5.5 5.5"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;-1.6 -1.6;0 0" keyTimes="0;.8;.88;1" dur="6s" repeatCount="indefinite"/></g>
+      </g>
+      <text x="74" y="37" font-family="system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-size="26" font-weight="750" fill="#121510" letter-spacing="-.3">NCPack Studio</text>
+    </g>
+
+    <!-- headline -->
+    <g font-family="system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-weight="800" letter-spacing="-2">
+      <text x="80" y="222" font-size="58" fill="#121510">Videos half the size.</text>
+      <text x="80" y="290" font-size="58" fill="#4b6400">Quality measured,</text>
+      <text x="80" y="358" font-size="58" fill="#4b6400">not promised.</text>
+    </g>
+
+    <!-- the measured result -->
+    <g font-family="ui-monospace,'SF Mono','Cascadia Mono',Menlo,Consolas,monospace">
+      <text x="700" y="150" font-size="14" fill="#121510" fill-opacity=".55" letter-spacing="2">FULL HD PHONE VIDEO · AV1 · LEVEL HIGH</text>
+      <text x="700" y="214" font-family="system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-size="56" font-weight="800" fill="#121510" letter-spacing="-2">−59.5%</text>
+      <rect x="700" y="236" width="480" height="44" rx="22" fill="#141810" fill-opacity=".05" stroke="#141810" stroke-opacity=".14"/>
+      <g clip-path="url(#barclip)">
+        <rect x="700" y="236" width="480" height="44" fill="url(#bar)"/>
+        <rect x="560" y="236" width="140" height="44" fill="url(#shine)"><animate attributeName="x" values="560;1180" dur="2.4s" repeatCount="indefinite"/></rect>
+      </g>
+      <text x="700" y="312" font-size="16" fill="#121510" fill-opacity=".75">82.2 MB → 33.3 MB</text>
+      <g transform="translate(700 332)">
+        <rect width="244" height="36" rx="18" fill="#96be14" fill-opacity=".16" stroke="#7fa114" stroke-opacity=".6"/>
+        <path d="m16 18 5 5 10-10" fill="none" stroke="#4b6400" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+        <text x="42" y="23.5" font-size="14.5" fill="#4b6400">VMAF 96.65 · target 95</text>
+      </g>
+      <g transform="translate(956 332)">
+        <rect width="224" height="36" rx="18" fill="#fff" fill-opacity=".6" stroke="#141810" stroke-opacity=".14"/>
+        <text x="112" y="23.5" font-size="14.5" fill="#121510" fill-opacity=".8" text-anchor="middle">macOS · Windows</text>
+      </g>
+    </g>
+  </g>
+</svg>

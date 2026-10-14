@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 🎁 Free 7-day trial · Prova gratuita di 7 giorni
+    url: https://ncpack.roca.software/en#demo
+    about: Get a trial key and the download link by email · Ricevi chiave e link per email
+  - name: 💳 Buy a licence or book a live demo · Acquista una licenza o prenota una demo
+    url: https://ncpack.roca.software/#demo
+    about: Choose "Buy a licence" or "Live demo" in the form · Scegli «Acquisto licenza» o «Demo dal vivo» nel modulo

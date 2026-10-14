@@ -1,0 +1,25 @@
+name: ✨ Feature request · Proponi un'idea
+description: Something you'd like NCPack Studio to do · Qualcosa che vorresti da NCPack Studio
+labels: ["idea"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do? · Cosa vorresti fare?
+      description: Describe the situation, not only the solution · Descrivi la situazione, non solo la soluzione
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea · La tua idea
+  - type: dropdown
+    id: who
+    attributes:
+      label: You use NCPack Studio for · Usi NCPack Studio per
+      options:
+        - Marketing / corporate videos · Video aziendali e marketing
+        - E-learning / SCORM
+        - Video archive · Archivio video
+        - Personal / creator · Uso personale / creator
+        - Other · Altro
