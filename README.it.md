@@ -25,7 +25,7 @@ fotogramma** del file finito con [VMAF](https://github.com/Netflix/vmaf), la mis
 Se un video non può diventare più leggero senza perdere qualità, resta com'è: **non ricevi mai un file più pesante.**
 
 <div align="center">
-  <img src="docs/images/app-demo.gif" alt="NCPack Studio al lavoro: un video viene trascinato, stimato e compresso a 33,3 MB con VMAF 96,65" width="720">
+  <img src="docs/images/app-demo.webp" alt="NCPack Studio al lavoro: un video viene trascinato, stimato e compresso a 33,3 MB con VMAF 96,65" width="860">
   <br><sub>Trascini un video, vedi il peso prima di cominciare, ricevi un file verificato fotogramma per fotogramma.</sub>
 </div>
 
@@ -114,8 +114,8 @@ Per chi fa e-learning: prende un corso esportato da **Articulate, iSpring, Capti
 
 <div align="center">
   <br>
-  <img src="docs/images/film.webp" alt="Il film di presentazione: una pila di fotogrammi si alleggerisce" width="640">
-  <br><sub>Il film del sito, disegnato fotogramma per fotogramma e compresso da NCPack Studio stesso:<br><b>da 369 MB senza perdita a 2,78 MB in AV1, VMAF 97,35.</b></sub>
+  <img src="docs/images/film.webp" alt="Il film di presentazione: una pila di fotogrammi si alleggerisce, uno per uno, e ogni fotogramma viene misurato" width="720">
+  <br><sub>Il film del sito, disegnato fotogramma per fotogramma e compresso da NCPack Studio stesso:<br><b>da 369 MB senza perdita a 2,78 MB in AV1, VMAF 97,35.</b> · <a href="https://ncpack.roca.software/#film">Guardalo intero</a></sub>
 </div>
 
 ## ✦ Come averlo

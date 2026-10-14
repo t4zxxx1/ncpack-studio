@@ -25,7 +25,7 @@ of the finished file with [VMAF](https://github.com/Netflix/vmaf), the metric de
 If a video can't get lighter without losing quality, it stays as it is: **you never get a heavier file.**
 
 <div align="center">
-  <img src="docs/images/app-demo.gif" alt="NCPack Studio at work: a video is dropped in, the size is estimated, then compressed to 33.3 MB at VMAF 96.65" width="720">
+  <img src="docs/images/app-demo.webp" alt="NCPack Studio at work: a video is dropped in, the size is estimated, then compressed to 33.3 MB at VMAF 96.65" width="860">
   <br><sub>Drop a video, see the size before you start, get a file verified frame by frame.</sub>
 </div>
 
@@ -115,8 +115,8 @@ For e-learning teams: takes a course exported from **Articulate, iSpring, Captiv
 
 <div align="center">
   <br>
-  <img src="docs/images/film.webp" alt="The presentation film: a stack of frames gets lighter" width="640">
-  <br><sub>The website film, drawn frame by frame and compressed by NCPack Studio itself:<br><b>369 MB lossless → 2.78 MB in AV1, VMAF 97.35.</b></sub>
+  <img src="docs/images/film.webp" alt="The presentation film: a stack of frames gets lighter, frame by frame, and every frame is measured" width="720">
+  <br><sub>The website film, drawn frame by frame and compressed by NCPack Studio itself:<br><b>369 MB lossless → 2.78 MB in AV1, VMAF 97.35.</b> · <a href="https://ncpack.roca.software/en#film">Watch it in full</a></sub>
 </div>
 
 ## ✦ Get it
